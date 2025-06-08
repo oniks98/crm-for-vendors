@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+TruScape CRM for Vendors
+TruScape CRM is a lightweight customer relationship management system tailored for managing vendor companies,
+categories, promotions, and analytics. The system is built using Next.js, React, Tailwind CSS, and deployed via Vercel.
 
-## Getting Started
+🔥 Features
 
-First, run the development server:
+📊 Interactive Dashboard:
 
-```bash
+Overview of total companies, categories, promotions, and active vendors
+
+World map distribution of companies
+
+Sales data with income summary
+
+Company categories with dynamic counts
+
+List of active promotions
+
+🏢 Companies Page:
+
+View and manage company data including status, category, promotions, country, and joined date
+
+Filtering options for quick navigation
+
+🔧 Admin Control:
+
+Add new companies easily via the dashboard
+
+🌍 Internationalization-ready:
+
+Designed to support multiple languages and countries
+
+🚀 Tech Stack
+Next.js (App Router)
+
+React with Hooks
+
+Tailwind CSS
+
+Deployed on Vercel
+
+Fake Data with Faker.js
+
+TypeScript (optional, if enabled)
+
+📦 Getting Started
+
+# Clone the repo
+
+git clone https://github.com/your-username/truscape-crm.git
+cd truscape-crm
+
+# Install dependencies
+
+npm install
+
+# Start development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🗂 Project Structure
+/app
+└── dashboard // Analytics dashboard
+└── companies // Company list and management
+/components // Shared UI components
+/utils // Helper functions
+/lib // API/database utilities
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔐 Project Status
+This project is currently in demo mode with fake data powered by Faker.js. You can extend it to use a real database like
+MongoDB or PostgreSQL.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📧 Contact
+👤 Yurii Shpuryk
+📫 yuriishpuryk@gmail.com
