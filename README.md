@@ -43,27 +43,18 @@ Fake Data with Faker.js
 
 TypeScript (optional, if enabled)
 
-📦 Getting Started
-
-# Clone the repo
-
-git clone https://github.com/your-username/truscape-crm.git
-cd truscape-crm
-
-# Install dependencies
-
-npm install
-
-# Start development server
-
-npm run dev
-
 🗂 Project Structure
+
 /app
+
 └── dashboard // Analytics dashboard
+
 └── companies // Company list and management
+
 /components // Shared UI components
+
 /utils // Helper functions
+
 /lib // API/database utilities
 
 🔐 Project Status
@@ -71,5 +62,7 @@ This project is currently in demo mode with fake data powered by Faker.js. You c
 MongoDB or PostgreSQL.
 
 📧 Contact
+
 👤 Yurii Shpuryk
+
 📫 yuriishpuryk@gmail.com
