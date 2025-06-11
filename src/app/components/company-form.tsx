@@ -53,8 +53,8 @@ export default function CompanyForm({ onSubmit }: CompanyFormProps) {
 
   const { mutateAsync, isPending } = useMutation({
     mutationFn: createCompany,
-    onSuccess: () => {
-      queryClient.invalidateQueries({
+    onSuccess: async () => {
+      await queryClient.invalidateQueries({
         queryKey: ['companies'],
       });
     },
